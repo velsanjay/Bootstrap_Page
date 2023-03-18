@@ -1,38 +1,268 @@
-.App {
-  text-align: center;
+h1 {
+  color: brown;
+}
+.bor{
+  display: grid;
+  margin: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top {
   display: flex;
   flex-direction: column;
+  justify-content: space-between  ;
+  flex-flow: nowrap;
+  gap: 1rem;
+}
+.p{
+color: gray;
+}
+.top1 {
+  display: flex;
   align-items: center;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 1px 10px;
+  margin: 10px;
+}
+.cmd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+.top12 {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.inp{
+  width: 400px;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  background-color: transparent;
+}
+.small {
+  width: 35px;
+  border-radius: 50%;
+}
+.big {
+  width: 60px;
+  border-radius: 50%;
+}
+.mid {
+  margin: 10px;
+  padding: 20px;
+  background-color: azure;
+  height: fit-content;
+}
+.mid1{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: fit-content;
+  margin: 10px;
+  background-color: blueviolet;
   color: white;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.mid1 img{
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 3px;
+  border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mid1 p{
+  margin-top: 8px;
+  margin-right: 20px ;
+  font-weight: bolder;
+}
+.gray{
+  background-color: green;
+  border: 1px solid green;
+}
+.gre{
+  background-color: gray;
+  border: 1px solid gray;
+}
+.yel{
+  background-color: yellowgreen;
+  border: 1px solid  yellowgreen;
+}
+.dan{
+  background-color: red;
+  border: 1px solid  red;
+}
+.sec{
+  background-color: darkcyan;
+  border: 1px solid  darkcyan;
+}
+.lit{
+  background-color: transparent;
+  color: darkcyan;
+  border: 1px solid  transparent;
+}
+.bac {
+  background-color: lightblue;
+  padding: 17px;
+}
+.mid .big{
+  width: 70px;
+}
+.mid .sm{
+  width: 32px;
+  margin-right: 10px;
+}
+.mid .sma{
+  font-size: 10px;
+  margin-right: 6px;
+}
+.s{
+  font-size: 20px;
+}
+.bot{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+  color: white;
+  padding: 10;
+  border-radius: 10px;
+}
+.bo1{
+  background-color: blue;
+}
+.bot img{
+  width: 40px;
+  margin-right: 15px;
+}
+.cards-first{
+  opacity: 0.5;
+  width: 70px;
+  text-align: center;
+}
+.car{
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+}
+.cards{
+  display: flex;
+  width: max-content;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.base{
+  display: grid;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid wheat;
+  background-color: white;
+  padding: 27px;
+  border-radius: 5px;
+}
+.cad{
+  display: grid;
+  grid-template-columns: 5% 95%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.a1{
+  display: grid;
+  gap: 1rem ;
+  grid-template-columns: auto auto;
+  width: fit-content;
+}
+.login{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 50px 100px;
+  background-color: blueviolet;
+}
+.log{
+ color: black;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 27px;
+}
+.put{
+  border-radius: 30px;
+  padding: 10px;
+  margin: 8px;
+  width: 45%;
+  border-color: aqua;
+}
+.put1{
+  border-color: aqua;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 8px;
+  width: 95%;
+}
+.bas{
+  display: grid;
+  grid-template-columns: 18% 82%;
+}
+.na{
+  padding: 10px;
+  height: 100%;
+}
+.nav-btn{
+  border: 0;
+  color: white;
+  padding : 12px;
+  border-radius : 5px;
+  background-color: inherit;
+}
+.color{
+  margin:10px;
+  background-color: antiquewhite;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+}
+.dash{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px;
+  color: lightskyblue;
+  height: fit-content;
+}
+.board{
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 175px;
+}
+.date{
+  display: flex;
+  justify-content: space-evenly;
+  height: fit-content;
+}
+.da{
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+.anim{
+  border: 1px solid bisque;
+  margin: 10px;
+  padding: 10px;
+  background-color: azure;
+  height: max-content;
+  
+}
+.App{
+  opacity: 0.8;
+}
+.flx{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
