@@ -5,8 +5,8 @@ export function BorderData() {
         <div className="bac">
             <h1>Border Utilities</h1>
             <p>Bootstrap's default utility classes can be found on the official Bootstrap Documentation page. The custom utilities below were created to extend this theme past the default utility classes built into Bootstrap's framework.</p>
-            <div className="top">
-                <div >
+            <div className="top car">
+                <div  >
                     {Border.map((prod, idx) => (
                         <div style={{ backgroundColor: prod.clr}} className='cad'>
                             <p ></p>
