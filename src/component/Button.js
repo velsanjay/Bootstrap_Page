@@ -4,8 +4,8 @@ export default function Button() {
         <div>
             <div className='bac'>
                 <h1>Button</h1>
-                <div className='top  '>
-                    <div className="" >
+                <div className='top d '>
+                    <div className="d1" >
                         <div className='mid'>
                             <h4>Circle Button</h4>
                             <hr></hr>
@@ -55,7 +55,7 @@ export default function Button() {
                             </button>
                         </div>
                     </div>
-                    <div className='mid'>
+                    <div className='mid d1'>
                         <h4>Split Buttons with Icon</h4>
                         <hr></hr>
                         <p className='p'>Works with any button colors, just use the <i>.btn-icon-split</i> class and the markup in the examples below. The examples below also use the <i>.text-white-50</i> helper class on the icons for additional styling, but it is not required.</p>

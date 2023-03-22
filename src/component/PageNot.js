@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom"
 export function PageNotFound(){
     const history=useHistory();
     return(
-        <div style={{textAlign:'center',height:"87vh"}}>
+        <div style={{textAlign:'center',height:"100vh"}}>
             <h1 style={{fontSize:"250px"}}>404</h1>
             <p><b>Page Not Found</b></p>
             <br/><br></br>

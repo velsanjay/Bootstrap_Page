@@ -6,7 +6,7 @@ export function Animation(){
         <div className="bac">
             <h1>Animation Utilities</h1>
             <p>Bootstrap's default utility classes can be found on the official Bootstrap Documentation page. The custom utilities below were created to extend this theme past the default utility classes built into Bootstrap's framework.</p>
-            <div style={{display:"flex"}}>
+            <div className="car" style={{display:"flex"}}>
                 {Anime.map((prop,idx)=>(
                     <div className="anim" key={idx}>
                         <h6>{prop.top}</h6>

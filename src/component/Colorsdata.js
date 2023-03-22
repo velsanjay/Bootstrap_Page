@@ -5,7 +5,7 @@ export default function ColorData() {
     <div className="bac mar">
       <h1>Color Utilities</h1>
       <p>Bootstrap's default utility classes can be found on the official Bootstrap Documentation page. The custom utilities below were created to extend this theme past the default utility classes built into Bootstrap's framework.</p>
-      <div className="date">
+      <div className="date car">
         {Color.map((prop, idx) => (
           <div className="color" key={idx}>
             <h6>{prop.top}</h6>

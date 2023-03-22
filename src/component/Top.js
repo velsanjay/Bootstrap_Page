@@ -1,7 +1,7 @@
 export default function Top() {
     return (
         <div>
-            <div className='top'>
+            <div className='top car'>
                 <div className='top1'>
                     <input className="inp" type={Text} placeholder={"Search for.."}></input>
                     <img className='top12' src='https://previews.123rf.com/images/nastudio/nastudio2006/nastudio200600078/149538504-find-icon-search-icon-flat-icon-with-long-shadow-web-circle-symbol-vector-illustration-eps.jpg'></img>
@@ -12,7 +12,7 @@ export default function Top() {
                         <img className='top12' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9RmuFgXI5DpCMYNAOZQiAhmW91--IzVq9OWs7_TvAQ&usqp=CAU&ec=48600112'></img>
                     </div>
                     <hr></hr>
-                    <hr></hr>
+                    <hr/>
 
                     <div className='cmd'>
                         <label>Sanjay</label>

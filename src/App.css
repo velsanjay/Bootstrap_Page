@@ -12,6 +12,7 @@ h4 {
 .top {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between  ;
   flex-flow: nowrap;
   gap: 1rem;
@@ -147,6 +148,7 @@ color: gray;
 .car{
   display: flex;
   margin: 10px;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .cards{
@@ -172,10 +174,10 @@ color: gray;
   border-radius: 10px;
 }
 .a1{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem ;
-  grid-template-columns: auto auto;
-  width: fit-content;
+  height: max-content;
 }
 .login{
   display: grid;
@@ -227,9 +229,11 @@ color: gray;
   border-radius: 5px;
 }
 .dash{
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 50% 50%; */
   margin: 10px;
+  justify-content: space-between;
   color: lightskyblue;
   height: fit-content;
 }
